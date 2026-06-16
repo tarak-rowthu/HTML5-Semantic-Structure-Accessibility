@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects – Tarak Rowthu</title>
+
+  <!-- SEO -->
+  <meta name="description"
+        content="Showcase of Tarak Rowthu’s web development projects, highlighting technologies, design, and outcomes." />
+  <meta name="keywords"
+        content="projects, web development, JavaScript, CSS, HTML, portfolio" />
+  <meta name="author" content="Tarak Rowthu" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Projects – Tarak Rowthu" />
+  <meta property="og:description"
+        content="Explore my projects, see the tech stack, and visit live demos or source code." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/projects.html" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header" role="banner">
+  <nav class="primary-nav" aria-label="Main navigation">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+      <svg width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </label>
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="projects.html" class="nav-link" aria-current="page">Projects</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section aria-labelledby="projects-heading">
+    <h2 id="projects-heading">Projects</h2>
+<section class="card-grid" aria-label="Project Cards">
+    <!-- ==== Project Card Template (6 cards) ==== -->
+    <article class="card" aria-labelledby="proj1-title">
+      <img src="https://via.placeholder.com/400x200?text=Portfolio+Site"
+           alt="Screenshot of the personal portfolio website" loading="lazy" />
+      <div class="card-content">
+        <h3 id="proj1-title">Personal Portfolio Site</h3>
+        <p>A responsive, SEO‑optimized portfolio built with HTML5, CSS3, and vanilla JavaScript.</p>
+        <div class="tech-badge">HTML5</div>
+        <div class="tech-badge">CSS3</div>
+        <div class="tech-badge">JavaScript</div>
+        <div class="cta-links">
+          <a href="index.html" class="btn">Live Demo</a>
+          <a href="https://github.com/tarak-rowthu-github/portfolio" class="btn secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </article>
+    <!-- repeat for other cards ... (same pattern, omitted for brevity) -->
+</section>
+      <article class="card" aria-labelledby="proj2-title">
+        <img src="https://via.placeholder.com/400x200?text=Weather+Dashboard"
+             alt="Weather dashboard UI showing current conditions" loading="lazy" />
+        <div class="card-content">
+          <h3 id="proj2-title">Weather Dashboard</h3>
+          <p>Realtime weather app using the OpenWeather API, featuring charts and location search.</p>
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS3</div>
+          <div class="tech-badge">Fetch API</div>
+          <div class="cta-links">
+            <a href="#" class="btn">Live Demo</a>
+                  <a href="https://github.com/tarak-rowthu-github/weather-dashboard" class="btn secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" aria-labelledby="proj3-title">
+        <img src="https://via.placeholder.com/400x200?text=Task+Manager"
+             alt="Task manager interface with drag‑and‑drop ordering" loading="lazy" />
+        <div class="card-content">
+          <h3 id="proj3-title">Task Manager</h3>
+          <p>Client‑side CRUD task manager persisting data with localStorage.</p>
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS Grid</div>
+          <div class="tech-badge">ES6 Modules</div>
+          <div class="cta-links">
+            <a href="#" class="btn">Live Demo</a>
+                  <a href="https://github.com/tarak-rowthu-github/task-manager" class="btn secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" aria-labelledby="proj4-title">
+        <img src="https://via.placeholder.com/400x200?text=E‑commerce+Mockup"
+             alt="E‑commerce product grid with hover effects" loading="lazy" />
+        <div class="card-content">
+          <h3 id="proj4-title">E‑commerce Mockup</h3>
+          <p>Design‑system‑driven mockup showcasing product cards and checkout flow.</p>
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS Variables</div>
+          <div class="tech-badge">JavaScript</div>
+          <div class="cta-links">
+            <a href="#" class="btn">Live Demo</a>
+                  <a href="https://github.com/tarak-rowthu-github/ecommerce-mockup" class="btn secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" aria-labelledby="proj5-title">
+        <img src="https://via.placeholder.com/400x200?text=Accessible+Blog"
+             alt="Accessible blog article with proper headings and contrast" loading="lazy" />
+        <div class="card-content">
+          <h3 id="proj5-title">Accessible Blog</h3>
+          <p>Demo of WCAG‑AA compliant blog layout with ARIA landmarks.</p>
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS3</div>
+          <div class="tech-badge">JavaScript</div>
+          <div class="cta-links">
+            <a href="#" class="btn">Live Demo</a>
+                  <a href="https://github.com/tarak-rowthu-github/accessible-blog" class="btn secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" aria-labelledby="proj6-title">
+        <img src="https://via.placeholder.com/400x200?text=Interactive+Map"
+             alt="SVG interactive map with keyboard‑navigable pins" loading="lazy" />
+        <div class="card-content">
+          <h3 id="proj6-title">Interactive Map</h3>
+          <p>SVG‑based map with focusable points of interest and tooltip overlays.</p>
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">SVG</div>
+          <div class="tech-badge">ARIA</div>
+          <div class="cta-links">
+            <a href="#" class="btn">Live Demo</a>
+                  <a href="https://github.com/tarak-rowthu-github/interactive-map" class="btn secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <p>&copy; 2026 Tarak Rowthu. All rights reserved.</p>
+  <nav aria-label="Footer navigation">
+    <div class="footer-social"></div>
+  </nav>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
