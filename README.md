@@ -1,8 +1,6 @@
 <<<<<<< HEAD
 # 📚 Tarak Naga Venkata Durgesh Rowthu Portfolio
 
-![GitHub license](https://img.shields.io/badge/license-MIT-green.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/your-username/your-repo) ![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)  
-
 ---
 
 ## ✨ Introduction
@@ -130,7 +128,6 @@ The site is ready for **Vercel** deployment. Just connect the GitHub repository 
 | **Live Demo** | *Add your live demo URL here* |
 | **GitHub Repository** | *Add your GitHub repo URL here* |
 
----
 
 *Happy coding! 🎉*
 =======
