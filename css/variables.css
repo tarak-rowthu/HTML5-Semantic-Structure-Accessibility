@@ -1,0 +1,50 @@
+/* CSS Custom Properties (variables) */
+:root {
+  /* Light Theme Variables */
+  --bg-primary: #f8fafc;        /* Background */
+  --bg-secondary: #ffffff;      /* Surface cards */
+  --text-primary: #111827;      /* Primary text */
+  --text-secondary: #4b5563;    /* Secondary text */
+  --card-bg: rgba(255,255,255,0.8);
+  --accent: #2563eb;            /* Primary accent/color */
+
+  /* Spacing */
+  --gap-sm: 0.5rem;
+  --gap-md: 1rem;
+  --gap-lg: 2rem;
+
+  /* Typography */
+  --font-base: 'Inter', sans-serif;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #050816;
+  --bg-secondary: #0f172a;
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --card-bg: rgba(15,23,42,0.75);
+  --accent: #3b82f6;
+}
+
+/* Map legacy variables to new ones for existing CSS */
+:root {
+  --color-bg: var(--bg-primary);
+  --color-surface: var(--bg-secondary);
+  --color-text: var(--text-primary);
+  --color-primary: var(--accent);
+}
+[data-theme="light"] {
+  --color-bg: var(--bg-primary);
+  --color-surface: var(--bg-secondary);
+  --color-text: var(--text-primary);
+  --color-primary: var(--accent);
+}
+[data-theme="dark"] {
+  --color-bg: var(--bg-primary);
+  --color-surface: var(--bg-secondary);
+  --color-text: var(--text-primary);
+  --color-primary: var(--accent);
+}

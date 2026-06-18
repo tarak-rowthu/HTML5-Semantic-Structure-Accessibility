@@ -1,0 +1,24 @@
+/* Footer component */
+footer.site-footer {
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-align: center;
+  padding: 1.5rem var(--spacing-unit);
+  font-size: 0.9rem;
+}
+
+footer.site-footer a {
+  color: inherit;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+footer.site-footer a:hover,
+footer.site-footer a:focus {
+  color: var(--color-primary);
+}
+
+/* Optional social icons container */
+.footer-social {
+  margin-top: 0.5rem;
+}

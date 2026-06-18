@@ -1,0 +1,28 @@
+/* animations.css - keyframes and utility classes */
+
+@keyframes gradientText {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.2); opacity: 0.9; }
+}
+
+.animate-fade-in { animation: fadeInUp 0.8s ease forwards; }
+.animate-glow { animation: pulseGlow 6s ease-in-out infinite; }
+
+.gradient-text {
+  background: linear-gradient(45deg, #0066ff, #8b5cf6);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientText 8s linear infinite;
+}

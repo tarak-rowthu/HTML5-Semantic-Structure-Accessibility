@@ -1,0 +1,10 @@
+/* Layout utilities – Grid & Flex */
+.grid {
+  display: grid;
+  gap: var(--gap-md);
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap-sm);
+}

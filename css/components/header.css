@@ -1,0 +1,13 @@
+/* Header component */
+header.site-header { background: var(--color-surface); padding: var(--gap-md); }
+nav.primary-nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: var(--gap-sm); list-style: none; }
+nav a { color: var(--color-text); text-decoration: none; font-weight: 500; }
+nav a:hover { color: var(--color-primary); }
+/* Mobile hamburger */
+.nav-toggle-label { display: none; }
+@media (max-width: 768px) {
+  .nav-toggle-label { display: block; cursor: pointer; }
+  nav ul { flex-direction: column; display: none; }
+  #nav-toggle:checked + .nav-toggle-label + ul { display: flex; }
+}

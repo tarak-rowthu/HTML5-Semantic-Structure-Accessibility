@@ -1,0 +1,27 @@
+/* Education component */
+section#education {
+  padding: var(--gap-lg) 0;
+}
+.education-timeline {
+  display: grid;
+  gap: var(--gap-md);
+}
+.education-item {
+  background: var(--color-surface);
+  padding: var(--gap-md);
+  border-radius: var(--radius);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.education-item h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.education-item p {
+  margin: 0.3rem 0;
+}
+@media (min-width: 768px) {
+  .education-timeline {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

@@ -1,0 +1,22 @@
+/* Skills Component */
+section#skills {
+  padding: var(--gap-lg) 0;
+}
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: var(--gap-sm);
+}
+.skill-badge {
+  background: var(--color-surface);
+  padding: var(--gap-sm);
+  border-radius: var(--radius);
+  text-align: center;
+  font-weight: var(--font-weight-medium);
+  transition: var(--transition);
+}
+.skill-badge:hover,
+.skill-badge:focus {
+  background: var(--color-primary);
+  color: #fff;
+}

@@ -2,6 +2,15 @@
 
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('./base.css');
+@import url('./layout.css');
+@import url('./components/header.css');
+@import url('./components/hero.css');
+@import url('./components/skills.css');
+@import url('./components/projects.css');
+@import url('./components/contact.css');
+@import url('./components/education.css');
+@import url('./components/glass.css');
 
 :root {
   /* Typography */
@@ -145,7 +154,7 @@ nav li a {
 main {
   flex: 1;
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0 var(--spacing-unit);
 }
 
@@ -407,7 +416,7 @@ form button:focus {
 
 /* Footer */
 footer {
-  background: var(--color-text);
+  background: var(--color-surface);
   color: #fff;
   text-align: center;
   padding: 1.5rem var(--spacing-unit);

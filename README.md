@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 Tarak Naga Venkata Durgesh Rowthu Portfolio
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/your-username/your-repo) ![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)  
@@ -132,3 +133,6 @@ The site is ready for **Vercel** deployment. Just connect the GitHub repository 
 ---
 
 *Happy coding! 🎉*
+=======
+# HTML5-Semantic-Structure-Accessibility
+>>>>>>> ae9322b9d376c9957d018a92b4c3bccaabc7ddac
